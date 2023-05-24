@@ -1,0 +1,123 @@
+/* Body and General Styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    color: #444;
+  }
+  
+  h3 {
+    font-size: 24px;
+    line-height: 1.2;
+    color: #555;
+  }
+  
+  h4 {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #666;
+  }
+  
+  h5 {
+    font-size: 18px;
+    line-height: 1.2;
+    color: #777;
+  }
+  
+  h6 {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #888;
+  }
+  
+  p {
+    margin-bottom: 1.5em;
+  }
+  
+  ul, ol {
+    margin-left: 1.5em;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 1em 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+  }
+  
+  header nav ul li a {
+    color: #333;
+    display: block;
+    padding: 1em;
+  }
+  
+  header nav ul li a:hover {
+    background-color: #eee;
+  }
+  
+  /* Main Content Styling */
+  main {
+    margin-top: 4em;
+    padding: 2em;
+  }
+  
+  main section {
+    margin-bottom: 2em;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  
